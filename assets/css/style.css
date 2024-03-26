@@ -1,0 +1,75 @@
+@font-face {
+    font-family: titre;
+    src: url("../fonts/Jellyka\ Delicious\ Cake.ttf");
+}
+@font-face {
+    font-family: text;
+    src: url("../fonts/Chocolate\ Covered\ Raindrops.ttf");
+}
+
+body{
+    background: url(../images/back.jpeg) ;
+}
+h1{
+    font-family: titre;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
+}
+
+h2{
+    display: none;
+}
+
+#tache{
+    border: solid black;
+    border-radius: 50px;
+    text-align: center;
+    font-family: text;
+    font-size: 50px;
+    align-items: center;
+    background-color: #bf96aeb0;
+    
+    
+}
+#container{
+    font-family: text;
+    font-size: 50px;
+    display: flex;
+    
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+    
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bouton{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+
+}
+p{
+    
+    text-align: start;
+    
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: #bf96aeb0;
+}

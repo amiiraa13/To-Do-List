@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <header>
+      <h1>To Do List</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Formulaire des taches</h2>
+        <div class="formulaire">
+          <textarea
+            id="tache"
+            cols="30"
+            rows="2"
+            placeholder="Nouvelle tâche"
+          ></textarea>
+        </div>
+        <button class="bouton" onclick="addTask()" type="button">✔️</button>
+      </section>
+      <section id="container">
+        <h2>Liste des taches</h2>
+      </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
